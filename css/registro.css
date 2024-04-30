@@ -1,0 +1,70 @@
+:root{
+    --primario: #2f3e46;
+    --secundario: #52796f;
+    --oscuro: #212121;
+    --blanco: #ffffff;
+    --fondo: #CAD2C5;
+
+}
+
+body{
+    background-color: var(--fondo);
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.titulo-registro{
+    text-align: center;
+        font-size: 2rem;
+}
+.indicadores{
+    color:var(--blanco);
+}
+
+
+.registro{
+    width: 30rem;
+        background: var(--primario);
+        padding: 4rem;
+        padding-left: 4rem;
+        padding-right: 5rem;
+        margin: auto;
+        margin-top: 10rem;
+        border-radius: 0.6rem;
+      
+}
+
+.contenedor {
+    text-align: center; 
+}
+
+.boton-registro{
+    width: 40%;
+        background: var(--secundario);
+}
+
+.entradas{
+    width: 100%;
+    background: var(--blanco);
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.6rem;
+    border: 2px solid #1f53c5;
+    
+}
+
+.volver{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+}

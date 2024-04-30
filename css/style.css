@@ -1,0 +1,133 @@
+:root{
+    --primario: #2f3e46;
+    --secundario: #52796f;
+    --oscuro: #212121;
+    --blanco: #ffffff;
+    --fondo: #CAD2C5;
+
+}
+
+html{
+    font-size: 62.5%;
+    }
+    body{
+    background-color: var(--fondo);
+    font-size: 16px; /* 1 rem= 10px */
+    font-family: "Roboto Slab", serif;
+    }
+
+ 
+    
+    .roboto-slab {
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .contenedor{
+        max-width: 120rem;
+        margin:  0 auto;
+    }
+
+    .selector{
+        background-color: var(--secundario);
+    }
+    .opciones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-secuandario{
+        
+        text-align: center;
+        font-size: 2rem;
+    }
+    #usuario-nuevo {
+        display: none; 
+    }
+
+    .titulo-usuario{
+        color: var(--blanco);
+        text-align: center;
+        font-size: 2rem;
+    }
+    .usuario{
+        
+        width: 60rem;
+        background: var(--primario);
+        padding-left: 4rem;
+        padding: 6rem;
+        margin: auto;
+        margin-top: 10rem;
+        border-radius: 0.6rem;
+       
+    }
+    .indicadores{
+        color:var(--blanco);
+    }
+    
+    .entradas{
+    width: 90%;
+    justify-content: center;
+    margin: 0.5rem;
+    background: var(--blanco);
+    padding-left: 3.5rem;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+    border: 2px solid #1f53c5;
+   
+   
+    }
+
+    @media (min-width:768px){
+        .opciones{
+            flex-direction: row;
+             justify-content: space-around;
+        }
+    }
+
+    .opciones a{
+        
+        display: block;
+        text-align: center;
+        color: var(--oscuro);
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 1rem;
+    }
+    
+    .opciones a:hover{
+        background-color: var(--primario);
+        color: var(--blanco);
+    }  
+
+  
+
+  
+    .boton{
+        color: var(--oscuro);
+        width: 40%;
+        background: var(--secundario);
+
+    }
+      .contenedor {
+        text-align: center; 
+    }
+
+    .registrarse{
+        text-align: center;  
+        color: var(--blanco);      
+    }
+
+    footer{
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+    }
+    
